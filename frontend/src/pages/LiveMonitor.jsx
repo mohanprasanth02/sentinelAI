@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import GlassCard from '../components/GlassCard';
 import { ArrowDownTrayIcon, ArrowPathIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import jsPDF from 'jspdf';
-import html2canvas from 'html2canvas';
+import html2canvas from 'html2canvas-pro';
 
 const getCurvePath = (x1, y1, x2, y2) => {
   const cx = (x1 + x2) / 2;
