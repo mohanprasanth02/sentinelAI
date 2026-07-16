@@ -1,0 +1,28 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Python virtual environment
+.venv/
+backend/.venv/
+venv/
+env/
+__pycache__/
+backend/app/__pycache__/
+backend/app/*/__pycache__/
+
+# Database files
+*.db
+backend/sentinel_ai.db
+
+# Models / trained files
+models/model.pkl
+models/scaler.pkl
+
+# IDE / system files
+.DS_Store
+.idea/
+.vscode/
+*.local
